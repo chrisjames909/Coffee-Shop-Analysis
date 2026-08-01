@@ -64,5 +64,5 @@ cd coffee-shop-sales-analysis
 
 ## Conclusion
 This project demonstrates end-to-end analytics skills — from raw transactional data
-to SQL-driven insight extraction to polished, stakeholder-ready dashboards in both
-Excel and Power BI.
+to SQL-driven insight extraction to polished, stakeholder-ready dashboards in
+Excel. 
