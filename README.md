@@ -1,8 +1,7 @@
 # ☕ Coffee Shop Sales Analysis — SQL, Excel & Power BI
 
 A portfolio project analyzing a full year (2024) of point-of-sale transactions for a
-3-location coffee shop chain, covering data cleaning, SQL analysis, an Excel dashboard,
-and a Power BI dashboard.
+3-location coffee shop chain, covering data cleaning, SQL analysis, and an Excel dashboard.
 
 ## 📁 Repo Contents
 | File / Folder | Description |
@@ -10,11 +9,9 @@ and a Power BI dashboard.
 | [`data/coffee_shop_sales.csv`](data/coffee_shop_sales.csv) | Raw transaction-level dataset (~6,900 rows) |
 | [`sql/coffee_shop_analysis.sql`](sql/coffee_shop_analysis.sql) | KPI, trend, and ranking queries |
 | [`excel/Coffee_Shop_Sales_Dashboard.xlsx`](excel/Coffee_Shop_Sales_Dashboard.xlsx) | **Excel dashboard** — live formulas + charts |
-| [`powerbi/PowerBI_Build_Guide.md`](powerbi/PowerBI_Build_Guide.md) | DAX measures + step-by-step Power BI build guide |
 
 ## 📊 Live Dashboard Links
 - **Excel Dashboard:** [`excel/Coffee_Shop_Sales_Dashboard.xlsx`](excel/Coffee_Shop_Sales_Dashboard.xlsx)
-- **Power BI Report:** `powerbi/Coffee_Shop_Sales_Report.pbix` *(build using the guide above, then commit it here — see note below)* — once published to the Power BI Service, replace this line with your report's share link, e.g. `https://app.powerbi.com/view?r=<your-report-id>`
 
 ## Project Overview
 This project simulates the role of a data analyst supporting a growing coffee shop
@@ -53,14 +50,8 @@ Built an interactive workbook (`excel/Coffee_Shop_Sales_Dashboard.xlsx`) with a
 `SUMPRODUCT` formulas — KPI cards, revenue-by-category and revenue-by-location
 tables, a monthly trend table, and bar/line charts.
 
-**3. Power BI Dashboard**
-Designed as a multi-page report (Overview, Product Performance, Time Analysis, Store
-Comparison) — see [`powerbi/PowerBI_Build_Guide.md`](powerbi/PowerBI_Build_Guide.md)
-for the exact DAX measures and layout to reproduce it in Power BI Desktop.
-
 ## Tech Stack
 `SQL` · `Microsoft Excel` (SUMIF/SUMPRODUCT formulas, PivotChart-style dashboard) ·
-`Power BI` (DAX)
 
 ## Getting Started
 ```bash
@@ -70,7 +61,6 @@ cd coffee-shop-sales-analysis
 1. Open `excel/Coffee_Shop_Sales_Dashboard.xlsx` to explore the live dashboard
 2. Run the queries in `sql/coffee_shop_analysis.sql` against `data/coffee_shop_sales.csv`
    (loaded into MySQL/SQL Server/Postgres)
-3. Follow `powerbi/PowerBI_Build_Guide.md` to build the Power BI report
 
 ## Conclusion
 This project demonstrates end-to-end analytics skills — from raw transactional data
